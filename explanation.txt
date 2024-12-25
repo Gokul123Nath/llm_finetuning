@@ -1,0 +1,22 @@
+Tailoring the open source LLMs to perform specific task.
+The language model is a type of machine learning that is designed to predict the next word in a sentence,
+
+Supervised Finetuning :
+
+        Text classification, named entity recognition, sentiment analysis
+
+Few - shot learning :
+
+        By providing a few examples (shots) of the required tasks at the begining of the input prompts.
+
+Transfer learning :
+
+        All the above are transfer learning. But this category specifically aimed to allow a model to perform a task different from
+        the task it was iinitially trained on. The main idea is to leverage the knowledge the model has gained from a large,
+        general dataset and apply it to a more specific or related task.
+    
+Domain specific Finetuning :
+
+        This type of Finetuning adapt the model to understand and generate text that is specific to particular domain or industry.
+        The model is finetuned on a dataset composed of texts from the target domain to improve its context and knowledge on domain
+        specific tasks. 
